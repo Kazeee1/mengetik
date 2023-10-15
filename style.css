@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#main-container {
+  margin: 100px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#quote {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+#input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#start-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries untuk responsif */
+@media (max-width: 768px) {
+  #main-container {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  #quote {
+    font-size: 16px;
+  }
+  #input-box {
+    padding: 8px;
+    font-size: 14px;
+  }
+  #start-button {
+    padding: 8px 16px;
+  }
+}
